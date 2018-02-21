@@ -2,7 +2,11 @@
 	<h1>JM's programming skills</h1>
 	<ul class='languages'>
 		{{#each model as |language|}}
-			<li>{{language.level}} in {{language.name}}</li>
+			<li class='{{if language.active 'active'}}'>
+				<div class='title'>{{language.level}} in {{language.name}}
+					<i class='fa fa-{{if language.active 'check green' 'close red'}}' {{action 'toggleActive' language}} style='float:right;'></i>
+				</div>
+			</li>
 		{{/each}}
 	</ul>
 </div>
