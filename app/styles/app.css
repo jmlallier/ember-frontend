@@ -1,0 +1,42 @@
+html, body, * {
+	box-sizing : border-box;
+}
+
+body {
+	background  : #F8FDFF;
+	color       : #333333;
+	font-family : 'Raleway', 'Open Sans', sans-serif;
+	font-size   : 16px;
+}
+
+.languages {
+	list-style : none;
+	margin     : 0;
+	padding    : 0;
+	width      : auto;
+	float      : left;
+}
+
+.languages li {
+	border        : 1px solid rgba(0, 0, 0, 0.3);
+	box-shadow    : 1px 1px 10px 0 rgba(0, 0, 0, 0.3);
+	height        : 40px;
+	font-size     : 1.3em;
+	font-family   : 'Raleway', 'Open Sans', sans-serif;
+	line-height   : 1;
+	padding       : 10px;
+	width         : auto;
+	margin        : 0 0 10px;
+	background    : #FFFFFF;
+	border-radius : 2px;
+}
+
+main {
+}
+
+.wrap {
+	max-width : 1200px;
+	width     : 100%;
+	float     : left;
+	padding   : 0 20px;
+}

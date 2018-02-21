@@ -1,6 +1,8 @@
-<h1>Hi, there!</h1>
-<ul>
-	{{#each model as |person|}}
-		<li>{{person.name}} is {{person.age}}</li>
-	{{/each}}
-</ul>
+<div class='wrap'>
+	<h1>JM's programming skills</h1>
+	<ul class='languages'>
+		{{#each model as |language|}}
+			<li>{{language.level}} in {{language.name}}</li>
+		{{/each}}
+	</ul>
+</div>
